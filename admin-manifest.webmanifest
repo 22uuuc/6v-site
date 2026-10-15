@@ -1,0 +1,35 @@
+{
+  "name": "墨影书城 · 管理后台",
+  "short_name": "墨影管理",
+  "description": "墨影书城管理员专属 App：用户与作品审核、书币与 VIP 资金审计、活动设计推送、云同步与安全设置。仅管理员与开发者使用，前端用户不可见。",
+  "id": "./admin",
+  "start_url": "./admin",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a1d18",
+  "theme_color": "#d6be78",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icons/admin-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/admin-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/admin-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

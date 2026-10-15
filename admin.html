@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#d6be78" />
+    <meta name="description" content="墨影书城管理员专属 App：用户与作品审核、资金审计、活动推送、云同步与安全设置。仅管理员与开发者使用。" />
+    <link rel="manifest" href="./admin-manifest.webmanifest" />
+    <link rel="icon" href="./icons/admin-192.png" />
+    <link rel="apple-touch-icon" href="./icons/admin-apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="墨影管理" />
+    <title>墨影书城 · 管理后台</title>
+    <script type="module" crossorigin src="/6v-site/assets/rolldown-runtime-hePW80VL.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/react-vendor-D0Ec-185.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/chunk-62JRHF6Z-rLXKKPyt.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/ui-vendor-BBX3EPJF.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/utils-C_x8k0Fi.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/eye-B1tXnVWD.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/star-iQPQo-79.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/api-D_VdGeuE.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/svg-Bhh1hrO8.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/button-DCYLACcb.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/dist-BvbzW9xC.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/dist-C2EFtA7g.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/dist-KKSTZo5h.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/charArt-CbfkyAZN.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/idb-BgeHTrBD.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/BookCover-bfpQ8Uol.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/badge-CBH2VAH6.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/src-DYXy03PH.js"></script>
+    <link rel="stylesheet" crossorigin href="/6v-site/assets/src-B2UqWubE.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- 独立管理端入口：打开本页即定位到 /admin 管理后台 -->
+    <script>
+      if (!location.pathname.endsWith('/admin') && !location.pathname.endsWith('/admin/')) {
+        history.replaceState(null, '', '/admin');
+      }
+    </script>
+  </body>
+</html>

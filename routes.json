@@ -1,0 +1,130 @@
+[
+  {
+    "path": "/",
+    "file": "index.html"
+  },
+  {
+    "path": "/category/:type",
+    "file": "index.html"
+  },
+  {
+    "path": "/book/:id",
+    "file": "index.html"
+  },
+  {
+    "path": "/read/:bookId/:chapterId",
+    "file": "index.html"
+  },
+  {
+    "path": "/visual/:bookId",
+    "file": "index.html"
+  },
+  {
+    "path": "/comic/:bookId/:chapterId",
+    "file": "index.html"
+  },
+  {
+    "path": "/anime/:bookId",
+    "file": "index.html"
+  },
+  {
+    "path": "/dialogue/:bookId/:chapterId",
+    "file": "index.html"
+  },
+  {
+    "path": "/game/:bookId",
+    "file": "index.html"
+  },
+  {
+    "path": "/shelf",
+    "file": "index.html"
+  },
+  {
+    "path": "/search",
+    "file": "index.html"
+  },
+  {
+    "path": "/rank",
+    "file": "index.html"
+  },
+  {
+    "path": "/auth",
+    "file": "index.html"
+  },
+  {
+    "path": "/profile",
+    "file": "index.html"
+  },
+  {
+    "path": "/creator",
+    "file": "index.html"
+  },
+  {
+    "path": "/creator/upload-novel",
+    "file": "index.html"
+  },
+  {
+    "path": "/creator/upload-visual",
+    "file": "index.html"
+  },
+  {
+    "path": "/creator/upload-comic",
+    "file": "index.html"
+  },
+  {
+    "path": "/creator/upload-anime",
+    "file": "index.html"
+  },
+  {
+    "path": "/creator/upload-dialogue",
+    "file": "index.html"
+  },
+  {
+    "path": "/creator/upload-game",
+    "file": "index.html"
+  },
+  {
+    "path": "/creator/earnings",
+    "file": "index.html"
+  },
+  {
+    "path": "/feedback",
+    "file": "index.html"
+  },
+  {
+    "path": "/support",
+    "file": "index.html"
+  },
+  {
+    "path": "/admin",
+    "file": "index.html"
+  },
+  {
+    "path": "/activities",
+    "file": "index.html"
+  },
+  {
+    "path": "/vip",
+    "file": "index.html"
+  },
+  {
+    "path": "/messages",
+    "file": "index.html"
+  },
+  {
+    "path": "/author/:id",
+    "file": "index.html"
+  },
+  {
+    "path": "/achievements",
+    "file": "index.html"
+  },
+  {
+    "path": "/store",
+    "file": "index.html"
+  },
+  {
+    "path": "/adult",
+    "file": "index.html"
+  }
+]

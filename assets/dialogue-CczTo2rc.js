@@ -1,0 +1,3 @@
+function e(e){return e.split(`
+`).map(e=>e.trim()).filter(Boolean).map(e=>{let t=e.split(`|`);if(t.length<2)return null;let[n,r,i]=t;return!n.trim()||!r.trim()?null:{speaker:n.trim(),text:r.trim(),side:i?.trim().toUpperCase()===`R`?`R`:`L`}}).filter(e=>e!==null)}function t(e){return e.filter(e=>e.speaker.trim()&&e.text.trim()).map(e=>`${e.speaker.trim()}|${e.text.trim()}|${e.side}`).join(`
+`)}export{t as n,e as t};

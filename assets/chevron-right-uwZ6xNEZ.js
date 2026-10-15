@@ -1,0 +1,1 @@
+import{f as e}from"./utils-C_x8k0Fi.js";var t=e(`chevron-left`,[[`path`,{d:`m15 18-6-6 6-6`,key:`1wnfg3`}]]),n=e(`chevron-right`,[[`path`,{d:`m9 18 6-6-6-6`,key:`mthhwq`}]]);export{t as n,n as t};

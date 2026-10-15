@@ -1,0 +1,1 @@
+import{t as e}from"./react-vendor-D0Ec-185.js";import{t}from"./utils-C_x8k0Fi.js";import{a as n,o as r}from"./svg-Bhh1hrO8.js";var i=e();function a({scene:e,seed:a,variant:o=`scene`,className:s}){let c=o===`poster`?n(e,a):r(e,a);return(0,i.jsx)(`div`,{className:t(`h-full w-full overflow-hidden`,s),dangerouslySetInnerHTML:{__html:c}})}export{a as t};
