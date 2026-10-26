@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#d6be78" />
+    <meta name="description" content="墨影书城管理员专属 App：用户与作品审核、资金审计、活动推送、云同步与安全设置。仅管理员与开发者使用。" />
+    <link rel="manifest" href="/6v-site/admin-manifest.webmanifest" />
+    <link rel="icon" href="/6v-site/icons/admin-192.png" />
+    <link rel="apple-touch-icon" href="/6v-site/icons/admin-apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="墨影管理" />
+    <title>墨影书城 · 管理后台</title>
+    <script type="module" crossorigin src="/6v-site/assets/rolldown-runtime-COiEfhsA.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/react-vendor-uA-yI9nz.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/ui-vendor-gOIGOFme.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/utils-y6WbtxQ0.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/icons-vendor-BNiOD8C8.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/api-D8HBP9I0.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/svg-DU6kuTM-.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/button-8vKrQ4p2.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/dist-Ds8Nt0RH.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/dist-Bxrh6vSw.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/dist-DB8PGD2t.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/charArt-CbfkyAZN.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/idb-BgeHTrBD.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/BookCover-TQataj6r.js"></script>
+    <script type="module" crossorigin src="/6v-site/assets/src-oHnUf7OX.js"></script>
+    <link rel="stylesheet" crossorigin href="/6v-site/assets/src-CaDnqHDV.css">
+    <script src="/config.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- 独立管理端入口：打开本页即定位到 /admin 管理后台 -->
+    <script>
+      if (!location.pathname.endsWith('/admin') && !location.pathname.endsWith('/admin/')) {
+        history.replaceState(null, '', '/admin');
+      }
+    </script>
+  </body>
+</html>

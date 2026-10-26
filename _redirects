@@ -1,0 +1,2 @@
+# 墨影书城 · Pages 同源代理：/api/* 转发到后端 API 域名（消除跨域，浏览器只连 pages.dev）
+/api/* https://moying-api.us.ci/api/:splat 200
